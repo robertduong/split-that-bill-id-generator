@@ -58,7 +58,7 @@ exports.createSessionId = functions.database.ref('/users/{id}/newSession').onWri
       const userSessionsRef = db.ref('/users/' + event.params.id + '/sessions');
       const userSessionIndex = userSessionsRef.push();
       userSessionsRef.update({
-        [userSessionIndex]: sessionId
+        [userSessionIndex.key]: sessionId
       });
     } 
       return counter;

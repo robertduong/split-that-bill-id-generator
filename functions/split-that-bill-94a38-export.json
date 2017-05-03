@@ -1,0 +1,35 @@
+{
+  "members" : {
+    "4re2r" : {
+      "-KjFI0600ITRAOk2gSXD" : "1"
+    },
+    "ep57q" : {
+      "-KjFL9S2GTFcUvb2qQrh" : "0"
+    },
+    "wrjzq" : {
+      "-KjFK2n5Oy3dbQ3UNo0c" : "0"
+    }
+  },
+  "sessionCounter" : 7,
+  "sessions" : {
+    "4re2r" : {
+      "host" : "1"
+    },
+    "ep57q" : {
+      "host" : "0"
+    },
+    "wrjzq" : {
+      "host" : "0"
+    }
+  },
+  "users" : [ {
+    "name" : "Robert",
+    "newSession" : false,
+    "sessions" : {
+      "-KjFL9mwCx3MXpXjJSQf" : "ep57q"
+    }
+  }, {
+    "name" : "Leo",
+    "newSession" : false
+  } ]
+}
